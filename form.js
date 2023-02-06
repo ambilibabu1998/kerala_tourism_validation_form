@@ -38,6 +38,7 @@ function validateemail(){
   function validatephoneno(){
         let regexp1 =/^\d{10}$/
         let regexp2 = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/
+        let regExp5= /^\w+([\.-]?\w+)$/
 
         if (regexp1.test(phoneno.value.trim())){
           error1.innerHTML = "Valid Phone Number";
@@ -56,9 +57,20 @@ function validateemail(){
          error1.style.backgroundColor="green"
         return true;
        }
+       else if( regExp5.test(phoneno.value.trim())){
+       error1.innerHTML = "Should contain numbers only";
+        error1.style.color="white";
+         error1.style.border="2px"
+         error1.style.backgroundColor="red"
+        return false;
+       }
+      
+
+
+
     
     else{
-      error1.innerHTML ="Invalid Phone Number";
+      error1.innerHTML ="Invalid Phone Number ,";
       error1.style.color="white";
       error1.style.border="2px"
       error1.style.backgroundColor="red"
