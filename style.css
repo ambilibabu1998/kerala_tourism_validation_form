@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+.container1{
+  width: 70%;
+   border: 2px solid black;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 2%;
+  padding: 2%;
+  background-color: dodgerblue;
+}
+.col-12{
+  text-align: center;
+ 
+}
+.reg{
+  text-align: center;
+}
+.container2{
+
+  width: 70%;
+   border: 2px solid black;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 2%;
+  padding: 2%;
+  background-color: dodgerblue;
+}
+.login{
+  text-align: center;
+}
+.button1{
+  text-align: center;
+}
+.alr{
+  color: black;
+}
+.cards{
+  margin-top:  1%;
+  padding: 1%;
+}
+.container3 h2{
+  text-align: center;
+  margin-top: 1%;
+}
+.dis{
+ background-size: cover;
+}
+.container4{
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.list-group{
+  width: 30%;
+  
+  
+  
+}
+.container4 a {
+  background-color: yellowgreen;
+}
+.container4 h2{
+  background-color: yellowgreen;
+  width: 30%;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.disabled a{
+  background-color: yellowgreen;
+}
+.thrissur h2{
+  text-align: center;
+  background-color: yellowgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.container5{
+  width: 65%;
+ 
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+.tsr{
+  background-size: cover;
+}
+.desc1 h4 {
+  color: black;
+}
+.Thiruvanathapuram h2{
+  text-align: center;
+  background-color: yellowgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;}
+.para{
+  width: 50%;
+  margin-left: 25%;
+}
+.body{
+  background-size: cover;
+}

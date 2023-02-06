@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</head>
+<body background="./pictures/KeralaTourism.jpg">
+  <!-- form -->
+  <form action="index.html">
+  <div class="container1">
+    <div class="reg">
+    <h2>Registration</h2>
+  </div>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput"  placeholder="name">
+      <label for="floatingInput">Full Name</label>
+    </div>
+    <label for="error0" id="error0"></label>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput1" onkeyup="return validateemail()" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <label for="error" id="error"></label>
+    <br>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput2" onkeyup="return validatephoneno()" placeholder=" phone number">
+      <label for="floatingInput">Phone number</label>
+    </div>
+    <label for="error1" id="error1"></label>
+    <br>
+
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" onkeyup="return validatepassword()" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+    <br>
+    <label for="error2" id="error2"></label>
+    <br> <br>
+    <label for="strength" id="strength"></label>
+   
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword1" onkeyup="return validateconfirmpwd()" placeholder="Password">
+      <label for="floatingPassword">Confirm Password</label>
+    </div>
+   <br>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary" id="submit" onclick=" return validateform()" >Sign in</button>
+    </div>
+    <a class="text-danger-emphasis" href="login.html"><b>Already registered?</b></a>
+    <br>
+    <a class="text-body-emphasis" href="index.html"><b>Skip Now</b></a>
+      </div>
+    </form>
+      <script src="form.js"></script>
+      
+        
+      </body>
+      </html>
