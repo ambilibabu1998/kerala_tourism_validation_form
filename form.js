@@ -38,7 +38,7 @@ function validateemail(){
   function validatephoneno(){
         let regexp1 =/^\d{10}$/
         let regexp2 = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/
-        let regExp5= /^\w+([\.-]?\w+)$/
+        let regExp5= /^[A-Za-z]+$/
 
         if (regexp1.test(phoneno.value.trim())){
           error1.innerHTML = "Valid Phone Number";
@@ -70,7 +70,7 @@ function validateemail(){
 
     
     else{
-      error1.innerHTML ="Invalid Phone Number ,";
+      error1.innerHTML ="Invalid Phone Number";
       error1.style.color="white";
       error1.style.border="2px"
       error1.style.backgroundColor="red"
